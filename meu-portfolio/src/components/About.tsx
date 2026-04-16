@@ -4,21 +4,22 @@ function About() {
   return (
     <section id="about" className="section">
       <SectionTitle
-        label="Sobre mim"
-        title="Apresentação profissional"
+        label="Sobre"
+        title="Base técnica em formação com foco em software, segurança e infraestrutura"
       />
 
       <div className="card">
         <p>
-          Sou estudante de Análise e Desenvolvimento de Sistemas, com interesse
-          em desenvolvimento front-end, interfaces bem construídas e projetos
-          que unam estética, organização e desempenho.
+          Sou estudante de Análise e Desenvolvimento de Sistemas no Senac, com
+          interesse em backend, desenvolvimento web, cibersegurança e
+          infraestrutura.
         </p>
 
         <p>
-          Meu objetivo é criar aplicações que transmitam profissionalismo,
-          tenham boa experiência de uso e representem bem minhas habilidades
-          técnicas em evolução.
+          Meu foco está na construção de uma base técnica sólida, unindo estudo,
+          prática e evolução contínua por meio de projetos, experimentação e
+          aprofundamento em tecnologias relevantes para o desenvolvimento de
+          software.
         </p>
       </div>
     </section>

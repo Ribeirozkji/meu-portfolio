@@ -1,37 +1,52 @@
 type ProjectCardProps = {
-  index: number
   title: string
   description: string
   tech: string[]
   link: string
+  status?: 'Em desenvolvimento' | 'Concluído'
+  featured?: boolean
 }
 
 function ProjectCard({
-  index,
   title,
   description,
   tech,
   link,
+  status,
+  featured = false,
 }: ProjectCardProps) {
   return (
-    <article className="project-card">
+    <article className={`project-card ${featured ? 'project-card-featured' : ''}`}>
       <div className="project-top">
-        <span className="project-number">
-          {String(index + 1).padStart(2, '0')}
-        </span>
-        <h3>{title}</h3>
+        <div className="project-heading">
+          <h3>{title}</h3>
+
+          {status && (
+            <span
+              className={`project-status ${
+                status === 'Em desenvolvimento' ? 'in-progress' : 'done'
+              }`}
+            >
+              {status}
+            </span>
+          )}
+        </div>
       </div>
 
       <p className="project-description">{description}</p>
 
-      <div className="tech-list">
-        {tech.map((item) => (
-          <span key={item}>{item}</span>
-        ))}
+      <div className="project-stack">
+        <p className="project-stack-label">Tecnologias usadas</p>
+
+        <div className="tech-list">
+          {tech.map((item) => (
+            <span key={item}>{item}</span>
+          ))}
+        </div>
       </div>
 
       <a href={link} className="project-link" target="_blank" rel="noreferrer">
-        Ver projeto
+        Ver no GitHub
       </a>
     </article>
   )

@@ -5,30 +5,46 @@ function Contact() {
     <section id="contact" className="section">
       <SectionTitle
         label="Contato"
-        title="Vamos conversar"
+        title="Canais para acompanhar minha evolução e entrar em contato"
       />
 
       <div className="card contact-card">
         <p>
-          Estou em processo de evolução como desenvolvedor e aberto a novas
-          oportunidades, conexões e projetos para aprendizado prático.
+          Você pode acompanhar meu perfil, meus estudos e meus projetos pelas
+          redes abaixo.
         </p>
 
         <div className="contact-info">
-          <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
-          <a
-            href="https://github.com/seuusuario"
-            target="_blank"
-            rel="noreferrer"
-          >
-            github.com/seuusuario
-          </a>
           <a
             href="https://linkedin.com/in/seuusuario"
             target="_blank"
             rel="noreferrer"
           >
-            linkedin.com/in/seuusuario
+            LinkedIn
+          </a>
+
+          <a
+            href="https://discord.com/users/seuusuario"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Discord
+          </a>
+
+          <a
+            href="https://instagram.com/seuusuario"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="https://reddit.com/user/seuusuario"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Reddit
           </a>
         </div>
       </div>

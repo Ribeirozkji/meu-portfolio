@@ -7,18 +7,19 @@ function Projects() {
     <section id="projects" className="section">
       <SectionTitle
         label="Projetos"
-        title="Trabalhos em destaque"
+        title="Projetos que mostram prática, evolução técnica e construção progressiva"
       />
 
       <div className="projects-grid">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <ProjectCard
             key={project.id}
-            index={index}
             title={project.title}
             description={project.description}
             tech={project.tech}
             link={project.link}
+            status={project.status}
+            featured={project.featured}
           />
         ))}
       </div>

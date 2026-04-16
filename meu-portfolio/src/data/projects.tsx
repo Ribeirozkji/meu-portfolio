@@ -4,31 +4,37 @@ export type Project = {
   description: string
   tech: string[]
   link: string
+  status?: 'Em desenvolvimento' | 'Concluído'
+  featured?: boolean
 }
 
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'Sistema de Tarefas',
+    title: 'ConectaTudo',
     description:
-      'Aplicação para gerenciamento de tarefas com foco em produtividade, organização e experiência de uso.',
-    tech: ['React', 'Vite', 'TypeScript'],
-    link: '#',
+      'Projeto em desenvolvimento voltado para prática com Python, estruturação de lógica, organização modular e construção progressiva de funcionalidades.',
+    tech: ['Python'],
+    link: 'https://github.com/Ribeirozkji/ConectaTudo',
+    status: 'Em desenvolvimento',
+    featured: true,
   },
   {
     id: 2,
-    title: 'Landing Page Moderna',
+    title: 'Fluxo de Projeto',
     description:
-      'Página institucional com design responsivo, foco em conversão e identidade visual forte.',
-    tech: ['React', 'UI Design', 'Responsive'],
+      'Aplicativo web de gerenciamento de projetos com foco em organização, produtividade, definição de tarefas, prazos e prioridades.',
+    tech: ['React', 'TypeScript', 'CSS', 'Vite'],
     link: '#',
+    status: 'Concluído',
   },
   {
     id: 3,
-    title: 'App de Estudos',
+    title: 'AquaLimpaOFC',
     description:
-      'Projeto voltado para acompanhamento de rotina de estudos, metas e evolução pessoal.',
-    tech: ['React', 'TypeScript', 'LocalStorage'],
+      'Projeto web com proposta institucional, voltado para apresentação visual, organização de conteúdo e construção de interface.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
+    status: 'Concluído',
   },
 ]

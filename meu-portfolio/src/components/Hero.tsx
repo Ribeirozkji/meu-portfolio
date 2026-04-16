@@ -5,45 +5,34 @@ function Hero() {
         <div className="hero-left">
           <div className="hero-badge">
             <span className="hero-badge-dot"></span>
-            Disponível para projetos e oportunidades
+            Em evolução constante na tecnologia
           </div>
 
-          <p className="hero-kicker">Front-end em evolução</p>
+          <p className="hero-kicker">Portfólio pessoal</p>
 
           <h1>
-            Pedro
+            Pedro Henrique
             <span>
-              Construo interfaces com presença visual, estrutura limpa e foco
-              em experiência.
+              Estudante de Análise e Desenvolvimento de Sistemas no Senac, com
+              foco em backend, desenvolvimento web, cibersegurança e
+              infraestrutura.
             </span>
           </h1>
 
           <p className="hero-text">
-            Sou estudante de Análise e Desenvolvimento de Sistemas e estou
-            desenvolvendo projetos com foco em front-end moderno, identidade
-            visual forte e código organizado.
+            Este perfil reúne projetos, estudos e evolução técnica com ênfase em
+            construção sólida de software, organização de código e melhoria
+            contínua.
           </p>
 
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">
-              Explorar projetos
+              Ver projetos
             </a>
 
             <a href="#contact" className="btn btn-secondary">
-              Falar comigo
+              Entrar em contato
             </a>
-          </div>
-
-          <div className="hero-meta">
-            <div>
-              <strong>3+</strong>
-              <span>Projetos em desenvolvimento</span>
-            </div>
-
-            <div>
-              <strong>React</strong>
-              <span>Vite, TSX e UI moderna</span>
-            </div>
           </div>
         </div>
 
@@ -52,17 +41,17 @@ function Hero() {
             <div className="portrait-glow"></div>
 
             <div className="portrait-card">
-              <img src="/images/pedro.png" alt="Foto de Pedro" />
+              <img src="/images/pedro.png" alt="Foto de Pedro Henrique" />
             </div>
 
             <div className="floating-card floating-card-top">
-              <span>UI</span>
-              <strong>Clean design</strong>
+              <span>Foco</span>
+              <strong>Backend e segurança</strong>
             </div>
 
             <div className="floating-card floating-card-bottom">
-              <span>Code</span>
-              <strong>React + TypeScript</strong>
+              <span>Base</span>
+              <strong>Web, infraestrutura e código</strong>
             </div>
           </div>
         </div>
