@@ -9,7 +9,7 @@ import {
   SiGit,
   SiGithub,
   SiPhp,
-  SiJava,
+  SiOpenjdk,
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
@@ -43,7 +43,7 @@ function Stack() {
             </div>
 
             <div className="tech-pill">
-              <SiJava className="tech-icon" />
+              <SiOpenjdk className="tech-icon" />
               <span>Java</span>
             </div>
           </div>
@@ -90,7 +90,7 @@ function Stack() {
             </div>
 
             <div className="tech-pill">
-              <SiJava className="tech-icon" />
+              <SiOpenjdk className="tech-icon" />
               <span>Java</span>
             </div>
           </div>
