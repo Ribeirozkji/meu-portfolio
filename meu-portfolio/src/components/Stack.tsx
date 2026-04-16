@@ -8,6 +8,10 @@ import {
   SiMysql,
   SiGit,
   SiGithub,
+  SiPhp,
+  SiJava,
+  SiTailwindcss,
+  SiTypescript,
 } from 'react-icons/si'
 
 function Stack() {
@@ -32,6 +36,16 @@ function Stack() {
               <SiPython className="tech-icon" />
               <span>Python</span>
             </div>
+
+            <div className="tech-pill">
+              <SiPhp className="tech-icon" />
+              <span>PHP</span>
+            </div>
+
+            <div className="tech-pill">
+              <SiJava className="tech-icon" />
+              <span>Java</span>
+            </div>
           </div>
         </article>
 
@@ -48,6 +62,16 @@ function Stack() {
               <SiVite className="tech-icon" />
               <span>Vite</span>
             </div>
+
+            <div className="tech-pill">
+              <SiTailwindcss className="tech-icon" />
+              <span>Tailwind CSS</span>
+            </div>
+
+            <div className="tech-pill">
+              <SiTypescript className="tech-icon" />
+              <span>TypeScript</span>
+            </div>
           </div>
         </article>
 
@@ -58,6 +82,16 @@ function Stack() {
             <div className="tech-pill">
               <SiNodedotjs className="tech-icon" />
               <span>Node.js</span>
+            </div>
+
+            <div className="tech-pill">
+              <SiPhp className="tech-icon" />
+              <span>PHP</span>
+            </div>
+
+            <div className="tech-pill">
+              <SiJava className="tech-icon" />
+              <span>Java</span>
             </div>
           </div>
         </article>
