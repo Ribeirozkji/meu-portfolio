@@ -16,23 +16,16 @@ function Contact() {
 
         <div className="contact-info">
           <a
-            href="https://linkedin.com/in/seuusuario"
+            href="https://www.linkedin.com/in/pedro-henrique-14bba7303/"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn
           </a>
 
+          
           <a
-            href="https://discord.com/users/seuusuario"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Discord
-          </a>
-
-          <a
-            href="https://instagram.com/seuusuario"
+            href="https://www.instagram.com/ribeirozjki/"
             target="_blank"
             rel="noreferrer"
           >
@@ -40,11 +33,11 @@ function Contact() {
           </a>
 
           <a
-            href="https://reddit.com/user/seuusuario"
+            href="https://github.com/Ribeirozkji"
             target="_blank"
             rel="noreferrer"
           >
-            Reddit
+            GitHub
           </a>
         </div>
       </div>

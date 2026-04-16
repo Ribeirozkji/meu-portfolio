@@ -13,8 +13,8 @@ export const projects: Project[] = [
     id: 1,
     title: 'ConectaTudo',
     description:
-      'Projeto em desenvolvimento voltado para prática com Python, estruturação de lógica, organização modular e construção progressiva de funcionalidades.',
-    tech: ['Python'],
+      'O ConectaTudo é um projeto acadêmico desenvolvido com o objetivo de propor uma solução prática para a organização de pedidos e atendimentos em pequenos negócios.',
+    tech: ['Python', 'Django REST', 'PostgreSQL', 'React', 'TypeScript'],
     link: 'https://github.com/Ribeirozkji/ConectaTudo',
     status: 'Em desenvolvimento',
     featured: true,
@@ -24,7 +24,7 @@ export const projects: Project[] = [
     title: 'Fluxo de Projeto',
     description:
       'Aplicativo web de gerenciamento de projetos com foco em organização, produtividade, definição de tarefas, prazos e prioridades.',
-    tech: ['React', 'TypeScript', 'CSS', 'Vite'],
+    tech: ['React', 'TypeScript', 'Tailwind CSS'],
     link: '#',
     status: 'Concluído',
   },

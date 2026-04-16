@@ -41,7 +41,7 @@ function Hero() {
             <div className="portrait-glow"></div>
 
             <div className="portrait-card">
-              <img src="/images/pedro.png" alt="Foto de Pedro Henrique" />
+             <img src="/foto-perfil.png" alt="Foto de Pedro Henrique" />
             </div>
 
             <div className="floating-card floating-card-top">
